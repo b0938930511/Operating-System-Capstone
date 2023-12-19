@@ -1,4 +1,4 @@
-# My OSC 2022
+# OSC 2022
 
 ## Author
 
