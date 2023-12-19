@@ -1,4 +1,4 @@
-# OSC 複習
+# Operating-System-Capstone
 
 ## Lab0
 ### Environment Setup
