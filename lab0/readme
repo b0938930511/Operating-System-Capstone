@@ -1,0 +1,12 @@
+lsblk
+sudo screen /dev/ttyUSB0 115200
+qemu-system-aarch64 -M raspi3 -kernel kernel8.img -display none -S -s
+terminal 連 UART
+qemu-system-aarch64 -M raspi3 -kernel kernel8.img -display none -serial null -serial stdio
+
+
+
+Debugging :
+在 gdb-multiarch 下
+file kernel8.elf
+target remote :1234

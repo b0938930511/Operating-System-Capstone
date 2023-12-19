@@ -1,0 +1,5 @@
+kernel_old=1
+disable_commandline_tags=1
+kernel_address=0x60000
+kernel=bootloader.img
+arm_64bit=1
