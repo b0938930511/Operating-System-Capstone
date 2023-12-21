@@ -1,0 +1,463 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon Jun  6 11:09:57 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/littlelagi/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/littlelagi/OSC2022/Lab7
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/littlelagi/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from 'Makefile', line 8)
+CPIO = archive/initramfs.cpio
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = lzh_TW
+# environment
+VSCODE_CWD = /home/littlelagi
+# environment
+SSH_CONNECTION = 36.226.221.135 52822 140.113.193.201 55146
+# environment
+PATH = /home/littlelagi/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/home/littlelagi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+VSCODE_LOG_STACK = false
+# environment
+LC_NUMERIC = lzh_TW
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-a34a4a7a-c942-4afb-b2c4-d711fbbad62f.sock
+# makefile (from 'Makefile', line 7)
+LIB = lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 3)
+ARMGNU = aarch64-linux-gnu
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/littlelagi/OSC2022/Lab7
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/littlelagi
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = littlelagi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = lzh_TW
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+XDG_SESSION_ID = 342
+# environment
+USER = littlelagi
+# environment
+LC_MONETARY = lzh_TW
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = lzh_TW
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 6)
+INC = include
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 36.226.221.135 52822 55146
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/littlelagi/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# automatic
+^F = $(notdir $^)
+# environment
+LC_MEASUREMENT = lzh_TW
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 9)
+USER_PROG = fs_test
+# environment
+LC_PAPER = lzh_TW
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 5)
+FLAGS = -O0 -Wall -nostartfiles -ffreestanding -mgeneral-regs-only -g -fPIC
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = lzh_TW
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = lzh_TW
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=85/1024=8%, Rehash=0, Collisions=13/121=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# lib (device 66306, inode 19537883): 18 files, no impossibilities.
+# kernel (device 66306, inode 19537878): 6 files, no impossibilities.
+# . (device 66306, inode 19398940): 16 files, no impossibilities.
+# user/lib (device 66306, inode 19537908): 3 files, no impossibilities.
+
+# 43 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+lib/utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-26 14:51:16.776689458
+#  File has been updated.
+#  Successfully updated.
+
+all: kernel8.img archive/initramfs.cpio fs_test.img
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean qemu-kernel on-board
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fs_test.img: user/fs_test.c user/lib/system_call.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-06 00:37:21.793042917
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+	$(ARMGNU)-gcc $(FLAGS) -Tuser/linker.ld $^ -o $(USER_PROG).elf -Iuser/$(INC)
+	$(ARMGNU)-objcopy -O binary $(USER_PROG).elf $(USER_PROG).img
+
+qemu-kernel:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	qemu-system-aarch64 -M raspi3 -kernel kernel8.img -display none -serial null -serial stdio -initrd archive/initramfs.cpio
+
+# Not a target:
+kernel/exception.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-06 00:36:44.829916125
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/shell.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-05 18:43:05.87144869
+#  File has been updated.
+#  Successfully updated.
+
+archive/initramfs.cpio: fs_test.img
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-06 00:37:21.797042824
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 22):
+	cd archive/rootfs && find . | cpio -o -H newc > ../initramfs.cpio
+
+# Not a target:
+ 
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 14:36:28.045748705
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/printf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.854065099
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/cpio.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-05 18:43:05.87144869
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/switch.S:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.854065099
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/timer.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.854065099
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/tmpfs.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-06 00:18:26.010891705
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+kernel/boot.S:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.85006515
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/task.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-05 21:40:54.298228048
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+on-board:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	sudo screen /dev/ttyUSB0 115200
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 45):
+	rm -f *.elf *.img *.cpio *.o *.S *.s
+
+# Not a target:
+lib/mail_box.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.854065099
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/memory.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-25 19:00:38.831637795
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/mini_uart.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.854065099
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/reboot.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.854065099
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+user/fs_test.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 13:04:12.076517392
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/vm.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-23 12:07:37.714952466
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+kernel/kernel.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-06 00:34:58.948598455
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/mm.S:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:19:00.854065099
+#  File has been updated.
+#  Successfully updated.
+
+rd.o: archive/initramfs.cpio
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-06 00:37:21.797042824
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	aarch64-linux-gnu-ld -r -b binary -o rd.o $(CPIO)
+
+kernel8.img: kernel/boot.S kernel/exception.c kernel/kernel.c lib/mm.S lib/switch.S lib/printf.c lib/tmpfs.c lib/allocator.c lib/shell.c lib/vfs.c lib/task.c lib/mini_uart.c lib/cpio.c lib/memory.c lib/mail_box.c lib/vm.c lib/reboot.c lib/timer.c lib/utils.c rd.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-06 00:37:22.089036043
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 14):
+	$(ARMGNU)-gcc $(FLAGS) -Tkernel/linker.ld $^ -o kernel8.elf -I$(INC)
+	$(ARMGNU)-objcopy -O binary kernel8.elf kernel8.img
+
+# Not a target:
+user/lib/system_call.c:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-05-29 14:17:18.893532177
+#  File has been updated.
+#  Successfully updated.
+
+qemu-debug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 31):
+	aarch64-linux-gnu-objdump -d kernel8.elf > kernel8.S
+	qemu-system-aarch64 -M raspi3 -kernel kernel8.img -display none -serial null -serial stdio -initrd archive/initramfs.cpio -d in_asm
+
+# Not a target:
+lib/allocator.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 22:39:37.108472581
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/vfs.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-06 00:34:52.04478362
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=34/1024=3%, Rehash=0, Collisions=0/83=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 70 / storage = 734 B / avg = 10 B
+# current buf: size = 8162 B / used = 734 B / count = 70 / avg = 10 B
+
+# strcache performance: lookups = 106 / hit rate = 33%
+# hash-table stats:
+# Load=70/8192=1%, Rehash=0, Collisions=4/106=4%
+# Finished Make data base on Mon Jun  6 11:09:57 2022
+
+ 
