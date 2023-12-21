@@ -28,8 +28,8 @@ Source code -------> object file -------> ELF file ------> Kernel Image(原始�
 
 
 
-SoC: System on a Chip
-ROM: Read-Only Memory
+SoC: System on a Chip \\ 
+ROM: Read-Only Memory \\
 以下為內核開始執行之前的四個步驟。
 1. GPU從SoC的ROM中執行第一階段的引導加載程序(bootloader)。
 1. 第一階段的引導加載程序識別FAT16/32文件系統，從SD卡加載第二階段引導加載程序bootcode.bin到L2緩存。
