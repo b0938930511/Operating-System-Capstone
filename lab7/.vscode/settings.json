@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "memory.h": "c",
+        "array": "c",
+        "hash_map": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "task.h": "c",
+        "allocator.h": "c",
+        "mini_uart.h": "c",
+        "exception.h": "c",
+        "mail_box.h": "c"
+    }
+}

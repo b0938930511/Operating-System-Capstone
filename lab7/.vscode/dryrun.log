@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/littlelagi/OSC2022/Lab7'
+aarch64-linux-gnu-gcc -O0 -Wall -nostartfiles -ffreestanding -mgeneral-regs-only -g -fPIC -Tuser/linker.ld user/fs_test.c user/lib/system_call.c -o fs_test.elf -Iuser/include
+aarch64-linux-gnu-objcopy -O binary fs_test.elf fs_test.img
+ 
+cd archive/rootfs && find . | cpio -o -H newc > ../initramfs.cpio
+aarch64-linux-gnu-ld -r -b binary -o rd.o archive/initramfs.cpio
+aarch64-linux-gnu-gcc -O0 -Wall -nostartfiles -ffreestanding -mgeneral-regs-only -g -fPIC -Tkernel/linker.ld kernel/boot.S kernel/exception.c kernel/kernel.c lib/mm.S lib/switch.S lib/printf.c lib/tmpfs.c lib/allocator.c lib/shell.c lib/vfs.c lib/task.c lib/mini_uart.c lib/cpio.c lib/memory.c lib/mail_box.c lib/vm.c lib/reboot.c lib/timer.c lib/utils.c rd.o -o kernel8.elf -Iinclude
+aarch64-linux-gnu-objcopy -O binary kernel8.elf kernel8.img
+make: Leaving directory '/home/littlelagi/OSC2022/Lab7'
+ 
