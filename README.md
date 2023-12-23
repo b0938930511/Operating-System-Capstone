@@ -7,7 +7,7 @@
 1. 樹莓派3的引導加載程序(bootloader )無法加載(load)ELF文件。因此需用objcopy將ELF轉成原始的二進制文件。
 
 Source code -------> object file -------> ELF file ------> Kernel Image(原始的二進制)  
-　　　　　(compiler)　　　　(Linker)　 　　(objcopy)
+　　　　　(compiler)　　　  　(Linker)     (objcopy)
 ## Lab1
 
 
